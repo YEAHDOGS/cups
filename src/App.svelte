@@ -183,7 +183,7 @@
         </linearGradient>
       </defs>
       <rect width="400" height="800" fill="url(#cbg)" />
-      <g opacity="0.95">
+      <g opacity="0.95" transform="translate(0,80)">
         <path d="M120 260 L280 260 L262 660 L138 660 Z" fill="rgba(163,230,53,0.06)" stroke="#f2f7ec" stroke-width="4" />
         <path d="M136 330 L264 330 L262 660 L138 660 Z" fill="url(#drink)" opacity="0.8" />
         <rect x="112" y="380" width="22" height="150" rx="11" fill="url(#icepk)" opacity="0.95" />
@@ -191,12 +191,6 @@
         <rect x="112" y="560" width="22" height="80" rx="11" fill="url(#icepk)" opacity="0.7" />
         <rect x="266" y="560" width="22" height="80" rx="11" fill="url(#icepk)" opacity="0.7" />
         <rect x="196" y="140" width="12" height="180" rx="6" fill="url(#bamstalk)" transform="rotate(6 200 200)" />
-        <path d="M120 440 l -34 -10 M112 380 l -30 -34" stroke="#7dd3fc" stroke-width="2" stroke-dasharray="5 4" opacity="0.8" />
-        <text x="20" y="356" fill="#7dd3fc" font-size="13" font-family="monospace" opacity="0.9">ice stays</text>
-        <text x="20" y="372" fill="#7dd3fc" font-size="13" font-family="monospace" opacity="0.9">sealed</text>
-        <path d="M280 500 l 34 8" stroke="#f2f7ec" stroke-width="2" stroke-dasharray="5 4" opacity="0.6" />
-        <text x="318" y="512" fill="#f2f7ec" font-size="13" font-family="monospace" opacity="0.7">drink</text>
-        <text x="318" y="528" fill="#f2f7ec" font-size="13" font-family="monospace" opacity="0.7">stays pure</text>
       </g>
     </svg>
     <div class="scrim"></div>
@@ -216,7 +210,7 @@
       <p class="kicker rv">04 &middot; The real story</p>
       <h2 class="rv d1">WHY NOBODY<br />DID <em>THIS.</em></h2>
       <div class="facts">
-        <div class="fact rv d1"><span class="n">01</span><p>Bamboo costs <b>more than paper.</b></p></div>
+        <div class="fact rv d1"><span class="n">01</span><p>Bamboo costs <b>6&times; paper.</b></p></div>
         <div class="fact rv d1"><span class="n">02</span><p>Grown, cut, and finished <b>in Asia.</b></p></div>
         <div class="fact rv d2"><span class="n">03</span><p>Paper giants <b>own the supply contracts.</b></p></div>
         <div class="fact rv d2"><span class="n">04</span><p>Bamboo <b>molds</b> if you neglect it.</p></div>
