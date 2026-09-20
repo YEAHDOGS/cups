@@ -90,7 +90,7 @@
   <div class="scrim"></div>
 {/snippet}
 
-<main class="scroller">
+<main>
 
   <!-- HERO -->
   <section class="panel" aria-label="Bamboo straws hero">
@@ -98,63 +98,33 @@
     <div class="wrap">
       <p class="kicker rv">Cups &middot; by DOGS</p>
       <h1 class="rv d1">BAMBOO<br />STRAWS<span class="dot">.</span></h1>
-      <p class="sub rv d2">Two words. <b>The whole plan.</b></p>
-      <a class="cta rv d3" href="#problem">See the plan</a>
+      <p class="sub rv d2">Paper goes soggy. <b>Plastic never dies.</b></p>
+      <a class="cta rv d3" href="#lineup">See the lineup</a>
     </div>
     <span class="cue">scroll</span>
-  </section>
-
-  <!-- PROBLEM -->
-  <section class="panel" id="problem" aria-label="Why paper straws failed">
-    <svg class="bg-art" viewBox="0 0 400 800" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
-      <defs>
-        <linearGradient id="pbg" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0" stop-color="#141007" />
-          <stop offset="1" stop-color="#050403" />
-        </linearGradient>
-        <linearGradient id="soda" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0" stop-color="#3a2c12" />
-          <stop offset="1" stop-color="#1c1508" />
-        </linearGradient>
-      </defs>
-      <rect width="400" height="800" fill="url(#pbg)" />
-      <g opacity="0.9">
-        <path d="M150 300 L250 300 L235 640 L165 640 Z" fill="none" stroke="#8a7a55" stroke-width="5" opacity="0.7" />
-        <path d="M154 340 L246 340 L235 640 L165 640 Z" fill="url(#soda)" opacity="0.85" />
-        <path d="M205 300 C 200 220, 190 180, 150 150" fill="none" stroke="#c9b68a" stroke-width="13" stroke-linecap="round" opacity="0.85" />
-        <path d="M150 150 l -12 -4 M150 150 l -4 -12" stroke="#c9b68a" stroke-width="8" stroke-linecap="round" opacity="0.5" />
-      </g>
-      <ellipse cx="200" cy="680" rx="150" ry="40" fill="#a3e635" opacity="0.05" />
-    </svg>
-    <div class="scrim"></div>
-    <div class="wrap">
-      <p class="kicker rv">01 &middot; The problem</p>
-      <h2 class="rv d1">PAPER GOES <em>SOGGY.</em></h2>
-      <p class="sub rv d2">Plastic never dies. <b>There's a third way.</b></p>
-    </div>
   </section>
 
   <!-- LINEUP -->
   <section class="panel" id="lineup" aria-label="The product line">
     {@render forest("lineup")}
     <div class="wrap">
-      <p class="kicker rv">02 &middot; The lineup</p>
+      <p class="kicker rv">01 &middot; The lineup</p>
       <h2 class="rv d1">STRAWS.<br />SPOONS.<br /><em>CUPS.</em></h2>
       <div class="cards">
         <div class="card rv d1">
           <p class="tag">Straws</p>
           <h3>Stiff to the last sip.</h3>
-          <p>Real bamboo. <b>Washable. Compostable.</b> Not paper.</p>
+          <p>Real bamboo. <b>Compostable.</b></p>
         </div>
         <div class="card rv d2">
           <p class="tag">Utensils</p>
           <h3>Spoons that don't snap.</h3>
-          <p>Ice-cream spoons. Forks. Knives. <b>The full table.</b></p>
+          <p>Ice-cream spoons. <b>The full table.</b></p>
         </div>
         <div class="card rv d3">
           <p class="tag">Cups</p>
-          <h3>Bamboo, cold to the end.</h3>
-          <p>The cup, <b>rebuilt from the plant up.</b></p>
+          <h3>Cold to the end.</h3>
+          <p>Rebuilt <b>from the plant up.</b></p>
         </div>
       </div>
     </div>
@@ -195,7 +165,7 @@
     </svg>
     <div class="scrim"></div>
     <div class="wrap">
-      <p class="kicker rv">03 &middot; Concept &middot; prototype only</p>
+      <p class="kicker rv">02 &middot; Concept &middot; prototype only</p>
       <h2 class="rv d1">THE<br />ICE-POCKET<br />CUP<span class="dot" style="color:#7dd3fc">.</span></h2>
       <p class="sub rv d2">Ice lives <b>in the wall.</b></p>
       <p class="sub rv d3">Meltwater <b>never touches</b> your drink.</p>
@@ -207,14 +177,13 @@
   <section class="panel" id="why" aria-label="Why bamboo straws have not taken off">
     {@render forest("why")}
     <div class="wrap">
-      <p class="kicker rv">04 &middot; The real story</p>
+      <p class="kicker rv">03 &middot; The real story</p>
       <h2 class="rv d1">WHY NOBODY<br />DID <em>THIS.</em></h2>
       <div class="facts">
         <div class="fact rv d1"><span class="n">01</span><p>Bamboo costs <b>6&times; paper.</b></p></div>
         <div class="fact rv d1"><span class="n">02</span><p>Grown, cut, and finished <b>in Asia.</b></p></div>
         <div class="fact rv d2"><span class="n">03</span><p>Paper giants <b>own the supply contracts.</b></p></div>
-        <div class="fact rv d2"><span class="n">04</span><p>Bamboo <b>molds</b> if you neglect it.</p></div>
-        <div class="fact rv d3"><span class="n">05</span><p>Nobody built the <b>brand.</b> We are.</p></div>
+        <div class="fact rv d2"><span class="n">04</span><p>Nobody built the <b>brand.</b> We are.</p></div>
       </div>
     </div>
   </section>
@@ -223,33 +192,10 @@
   <section class="panel" id="win" aria-label="How DOGS wins">
     {@render forest("win")}
     <div class="wrap">
-      <p class="kicker rv">05 &middot; The play</p>
+      <p class="kicker rv">04 &middot; The play</p>
       <h2 class="rv d1">HOW <em>DOGS</em><br />WINS.</h2>
       <p class="sub rv d1">Single-use. <b>Compostable.</b></p>
       <p class="sub rv d2">Built where bamboo grows. <b>Sold where paper failed.</b></p>
-    </div>
-  </section>
-
-  <!-- ROADMAP -->
-  <section class="panel" id="roadmap" aria-label="Roadmap">
-    {@render forest("road")}
-    <div class="wrap">
-      <p class="kicker rv">06 &middot; Roadmap</p>
-      <h2 class="rv d1">STRAWS<br /><em>FIRST.</em></h2>
-      <div class="steps">
-        <div class="step rv d1">
-          <span class="n">1</span>
-          <div><h3>Straws</h3><p>Now. The wedge.</p></div>
-        </div>
-        <div class="step rv d2">
-          <span class="n">2</span>
-          <div><h3>Utensils</h3><p>Next. The full table.</p></div>
-        </div>
-        <div class="step rv d3">
-          <span class="n">3</span>
-          <div><h3>Ice-pocket cup</h3><p>The moonshot. Patented or bust.</p></div>
-        </div>
-      </div>
     </div>
   </section>
 

@@ -23,16 +23,10 @@ body {
 }
 .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
 
-main.scroller {
-  scroll-snap-type: y mandatory;
-  height: 100svh;
-  overflow-y: auto;
-  overflow-x: hidden;
-}
+/* normal document scroll — no snap */
 
 .panel {
   min-height: 100svh;
-  scroll-snap-align: start;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -142,21 +136,6 @@ h2 em { font-style: normal; color: var(--bam); }
 .fact .n { font-size: 11px; color: var(--bam); letter-spacing: 0.2em; flex: 0 0 auto; }
 .fact p { font-size: 15px; line-height: 1.5; }
 .fact p b { color: var(--bam); font-weight: 700; }
-
-.steps { margin-top: 24px; display: flex; flex-direction: column; gap: 12px; }
-.step {
-  display: flex; gap: 14px; align-items: flex-start;
-  border: 1px solid var(--line); border-radius: 12px;
-  padding: 14px 16px; background: rgba(163, 230, 53, 0.04);
-}
-.step .n {
-  flex: 0 0 34px; height: 34px; border-radius: 50%;
-  border: 1px solid var(--bam); color: var(--bam);
-  display: flex; align-items: center; justify-content: center;
-  font-weight: 800; font-size: 15px;
-}
-.step h3 { font-size: 15px; margin-bottom: 3px; }
-.step p { font-size: 13px; color: var(--dim); line-height: 1.5; }
 
 .concept-note {
   margin-top: 18px;
